@@ -1,0 +1,46 @@
+html {
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #388FB7;
+  }
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #252e3663;
+    text-shadow: 3px 2px 1px black;
+  }
+p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+.player {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0,0,200,0.6);
+    background: rgba(0,0,200,0.3);
+    color: rgba(0,0,200,0.6);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    border-radius: 15px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+.handpointer {
+    cursor: pointer;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+img {
+    display: block;
+    margin: 0 auto;
+  }
