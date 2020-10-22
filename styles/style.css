@@ -44,3 +44,11 @@ img {
     display: block;
     margin: 0 auto;
   }
+.dynamic {
+    background: darkcyan;
+    padding: 10px;
+    border: 1px solid black;
+  }  
+li {
+    margin-left: 20px;
+  }

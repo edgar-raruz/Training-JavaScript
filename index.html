@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
+    <meta charset="utf-8" lang="es">
+    <meta name="description" content="Este sitio web fue construido siguiendo el tutorial del portal MDN Web Docs">
+    <title>Mi Página de Prueba</title>
     <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Esta es una página de prueba</h1>
-    <p>A continuación se muestra una imagen de una planta tomada con la cámara de un celular.</p>
-    <img src="images/plantitalow.jpg" alt="The picture of a climbing plant entering through the window's mosquito net from the front yard to the room">
+    <!-- Viene menú de navegación -->
+    <ul>
+      <li>Página Principal</li>
+      <li><a href="pictures.html">Imágenes</a></li>
+      <li><a href="projects.html">Proyectos</a></li>
+      <li><a href="social.html">Redes Sociales</a></li>
+    </ul>
+    <h1>Página Principal</h1>
+    <p>Bienvenidos a mi sitio web</p>
+    <h1 class="substitute">Esta es una página de prueba</h1>
+    <p>A continuación se muestra una imagen de una planta tomada con la cámara de un celular. Si le das clic, podrás ver un acercamiento de la planta.</p>
+    <img src="images/plantitalow.jpg" alt="Foto de una enredadera que entra por el mosquitero del jardín frontal a la habitación">
     <p>Los elementos básicos de la foto son los siguientes:</p>
     <ul>
         <li>Una enredadera</li>
@@ -19,10 +29,11 @@
     </ul>
     <p>Da clic en el enlace para más información en inglés sobre lo que es una <a href="https://www.merriam-webster.com/dictionary/climbing%20plant">enredadera</a>.</p>
     <p>Para cambiar el nombre que aparece en el encabezado, da clic en el siguiente botón:</p>
-    <button class="handpointer">Change user</button>
+    <button class="handpointer">Cambiar Usuario</button>
     <p>El siguiente es un botón de prueba y puedes cambiar el nombre del jugador haciendo clic en él:</p>
     <p class="player">Jugador 1: Chris</p>
     <script src="scripts/main.js">
     </script>
+    <p>Ejemplo de caracteres japoneses: <span lang="ja">ご飯が熱い。</span>.</p>
   </body>
 </html>
